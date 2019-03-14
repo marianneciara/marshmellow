@@ -1,0 +1,208 @@
+#mw-app {
+    background: $secondary;
+    opacity: 0;
+    transition: all 2s ease;
+
+    &.loaded {
+        background: $light-gray;
+        opacity: 1;
+    }
+
+    .row {
+        padding: 0;
+        @include media-breakpoint-up(sm) {
+            padding: 0 24px;
+        }
+        @include media-breakpoint-up(lg) {
+            padding: 0 80px;
+        }
+    }
+
+    .mw-background-image {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        height: 100%;
+        min-height: 690px;
+        max-height: 800px;
+        width: 100%;
+        max-width: 1800px;
+        @include background-image();
+        background-image: linear-gradient(to right, rgba(69, 50, 247, 0.9), rgba(50, 129, 247, 0.9)), url("~images/background-image.jpg");
+        clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+        @include media-breakpoint-up(lg) {
+            height: 85%;
+        }
+    }
+
+    #mw-container {
+        font-family: $open-sans;
+        font-weight: $regular;
+        min-height: 704px;
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        color: $white;
+    
+        .mw-header {
+            position: relative;
+            height: 80px;
+            
+            @include media-breakpoint-up(lg) {
+                height: 120px;
+                opacity: 0;
+                top: -16px;
+                left: 16px;
+                transition: all ease-in-out 1s;
+
+                &.loaded {
+                    opacity: 1;
+                    top: 0;
+                    left: 0;
+                }
+            }
+    
+            .mw-logo {
+                display: block;
+                height: auto;
+                @include vertical-align();
+    
+                img {
+                    max-width: 220px;
+                }
+            }
+        }
+        
+        .mw-main {
+            .mw-option-list {
+                position: relative;
+                opacity: 0;
+                left: -40px;
+                transition: all ease-in-out 1s;
+
+                &.loaded {
+                    opacity: 1;
+                    left: 0;
+                }
+
+                .mw-option-list-item {
+                    background: rgba(255, 255, 255, 0.06);
+                    padding: 20px;
+
+                    @include media-breakpoint-up(lg) {
+                        padding: 24px 40px;
+                    }
+
+                    &:not(:last-of-type) {
+                        margin-bottom: 8px;
+                    }
+
+                    .mw-option-title {
+                        margin-bottom: 16px;
+                    }              
+                }
+            }
+    
+            .mw-email-panel {
+                position: relative;
+
+                @include media-breakpoint-up(lg) {
+                    opacity: 0;
+                    right: -40px;
+                    transition: all ease-in-out 1s;
+
+                    &.loaded {
+                        opacity: 1;
+                        right: 0;
+                    }
+                }
+                
+                .mw-email-card {
+                    margin: 20px 0 0;
+                    @include media-breakpoint-up(lg) {
+                        margin-top: 0;
+                    }
+                    background: $white;
+                    box-shadow: 2px 2px 9px 6px rgba(0,0,0,0.1);
+                    padding: 24px;
+                    @include media-breakpoint-up(lg) {
+                        padding: 40px;
+                    }
+    
+                    p {
+                        color: $dark-gray;
+                        font-size: 14px;
+                        line-height: 1.8;
+    
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+    
+                        &:not(:last-of-type) {
+                            margin-bottom: 28px;
+                        }
+    
+                        &.mw-no-results {
+                            font-weight: bold;
+                            color: $secondary;
+                            a {
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .mw-email-prompt {
+                            font-weight: $bold;
+                            font-size: 12px;
+                        }
+                        
+                    }
+                }
+    
+                .btn-group {
+                    margin-top: 20px;
+                    
+                    @include media-breakpoint-up(lg) {
+                        justify-content: flex-end;
+                        display: flex;
+                    }
+
+                    .btn {
+                        width: 100%;
+                        @include media-breakpoint-up(lg) {
+                            max-width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 80px;
+        @include media-breakpoint-up(lg) {
+            margin-top: 60px;
+        }
+        p {
+            font-size: 12px;
+            color: $mid-gray;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    &:not(.user-tab) {
+        *:focus {
+            box-shadow: none !important;
+            outline: none;
+        }
+    }
+
+    &.user-tab {
+        *:focus{
+            box-shadow: 0 0 0 0.2rem rgba(47, 235, 160, 0.5) !important;
+            outline: none;
+        }
+    }
+}

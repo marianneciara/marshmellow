@@ -1,0 +1,16 @@
+.mw-loader {
+    margin: 0 auto;
+    animation: spin 1s linear infinite;
+    border: 3px solid $white;
+    border-top: 3px solid $primary;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,739 @@
+[
+    {
+        "section": "greeting",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly", "upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Dear <span class='mw-email-prompt'>NAME</span>,"]
+    },
+    {
+        "section": "greeting",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly", "upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Hi <span class='mw-email-prompt'>NAME</span>,"]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["friendly"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thanks so much for your interest in <span class='mw-email-prompt'>OUR COMPANY OR PRODUCT</span>."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Firstly, thank you so much for taking the time to contact us."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Firstly, thank you so much for bringing this to our attention."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thank you very much for taking the time to contact us."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Firstly, thank you very much for bringing this matter to our attention."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thanks for getting back to me, I really appreciate your time."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thank you very much for taking the time to get back to us, we sincerely appreciate it."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["friendly"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thank you ever so much for your interest in <span class='mw-email-prompt'>OUR COMPANY OR PRODUCT</span>."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thank you very much for getting back to us."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thanks so much for your reply!"]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thanks so much for getting back to me."]
+    },
+    {
+        "section": "intro",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Thanks so much for getting back to me!"]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We're pleased to confirm that <span class='mw-email-prompt'>RESPONSE TO THE QUESTION</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["We're pleased to confirm that <span class='mw-email-prompt'>DESCRIBE REQUEST WHICH IS POSSIBLE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I'm pleased to confirm that <span class='mw-email-prompt'>RESPONSE TO THE QUESTION</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I am so sorry to hear that <span class='mw-email-prompt'>DESCRIPTION OF ISSUE</span>. I completely understand your frustration and I can assure you that the team here is taking your feedback very seriously. In the meantime, I've <span class='mw-email-prompt'>DESCRIPTION OF AWESOME FIRST TIME RESOLUTION, E.G. REFUND PROCESSED OR OTHER ACTION, AND ANY GOODWILL GESTURE YOU'VE MADE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We are sincerely sorry to hear that you are disappointed with <span class='mw-email-prompt'>DESCRIPTION OF ISSUE</span>. We completely understand your frustration and have shared your comments with the relevant team here as a matter of urgency. In the meantime, we have taken the liberty of <span class='mw-email-prompt'>DESCRIPTION OF AWESOME FIRST TIME RESOLUTION, E.G. REFUND PROCESSED OR OTHER ACTION, AND ANY GOODWILL GESTURE YOU'VE MADE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We have now <span class='mw-email-prompt'>DESCRIPTION OF RESOLUTION, E.G. PROCESSED REFUND</span>. Please note that <span class='mw-email-prompt'>MANAGE CUSTOMER EXPECTATIONS, E.G. REFUND TIMEFRAMES</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["I'm pleased to confirm that <span class='mw-email-prompt'>DESCRIPTION OF REQUEST IS POSSIBLE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I'm so sorry to confirm that <span class='mw-email-prompt'>DESCRIPTION OF WHAT CANNOT BE FULFILLED</span>. It might worth noting, however, that <span class='mw-email-prompt'>ALTERNATIVE SOLUTION, PRODUCT OR FUTURE SERVICE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We're very sorry to confirm that we are unable to <span class='mw-email-prompt'>DESCRIPTION OF REQUEST</span>. It might worth noting, however, that <span class='mw-email-prompt'>ALTERNATIVE SOLUTION, PRODUCT OR FUTURE SERVICE</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["I am very sorry to hear that you are disappointed with <span class='mw-email-prompt'>DESCRIPTION OF ISSUE</span>. We are taking your feedback very seriously and your comments have been shared with the relevant teams here."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I have now <span class='mw-email-prompt'>DESCRIPTION OF RESOLUTION</span>. Please kindly note that <span class='mw-email-prompt'>MANAGE CUSTOMER EXPECTATIONS, E.G. REFUND TIMEFRAMES, ETC</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I have looked into this and I am sorry to confirm that we are unable to <span class='mw-email-prompt'>DESCRIPTION OF WHAT CANNOT BE DONE</span>. We work hard to offer the highest level of service to our customers, however I hope you understand that <span class='mw-email-prompt'>PERFECTLY ACCEPTABLE AND CUSTOMER-FRIENDLY EXPLANATION (IF YOU DON'T HAVE ONE, THIS USUALLY MEANS THAT YOU SHOULD ACTUALLY FIND A SOLUTION)</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["I completely understand your frustration and I will do everything I can to resolve this as quickly as possible."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We have carefully reviewed the matter and are sorry to confirm that we are unable to <span class='mw-email-prompt'>DESCRIPTION OF WHAT CANNOT BE DONE</span>. While we strive to offer the highest level of service to our valued customers, we sincerely hope you understand that <span class='mw-email-prompt'>PERFECTLY ACCEPTABLE AND CUSTOMER-FRIENDLY EXPLANATION (IF YOU DON'T HAVE ONE, THIS USUALLY MEANS THAT YOU SHOULD ACTUALLY FIND A SOLUTION)</span>."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["We are sincerely sorry to hear that you are disappointed with <span class='mw-email-prompt'>DESCRIPTION OF ISSUE</span>. Please be assured that this is very far from the level of service which we strive to achieve and that we have shared your concerns with the relevant teams here as a matter of urgency."]
+    },
+    {
+        "section": "body",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["We completely understand your frustration and can assure you that we will do everything we can to fix this issue."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["In order to do that, we will <span class='mw-email-prompt'>DESCRIPTION OF NEXT STEPS AND WHY, E.G. CONTACT A THIRD PARTY</span>. Once that has been done, we will <span class='mw-email-prompt'>DESCRIPTION OF RESOLUTION</span>. We will be in touch as soon as this has been completed."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["For future reference, please note that <span class='mw-email-prompt'>DESCRIPTION OF WHAT CUSTOMER CAN DO TO AVOID THIS SITUATION IN THE FUTURE, WHICH ALSO REINFORCES THAT THIS IS A CUSTOMER ERROR (IF IT'S NOT A CUSTOMER ERROR, FIND A SOLUTION).</span>"]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["For future reference, please kindly note that <span class='mw-email-prompt'>DESCRIPTION OF WHAT CUSTOMER CAN DO TO AVOID THIS SITUATION IN THE FUTURE, WHICH ALSO REINFORCES THAT THIS IS A CUSTOMER ERROR (IF IT'S NOT A CUSTOMER ERROR, FIND A SOLUTION).</span>"]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["In order for us to resolve this for you, please kindly follow these instructions: <span class='mw-email-prompt'>INSERT STEPS HERE</span>. Once this has been done, <span class='mw-email-prompt'>DESCRIPTION OF FINAL RESOLUTION</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["In order to fix this, we will <span class='mw-email-prompt'>INSERT OUR NEXT STEPS HERE</span>. Once this has been done, we will <span class='mw-email-prompt'>DESCRIBE RESOLUTION AND APPROXIMATE TIMEFRAME</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["In order for us to do this, we will just need to <span class='mw-email-prompt'>DESCRIPTION OF OUR NEXT STEPS</span>. We will <span class='mw-email-prompt'>DESCRIPTION OF RESOLUTION</span> as soon as this has been done, which should be within the next <span class='mw-email-prompt'>APPROXIMATE TIMEFRAME</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["In order for us to do that, we would be so grateful if you would <span class='mw-email-prompt'>INSERT CUSTOMER NEXT STEPS</span>. Once this has been completed, we will ensure that <span class='mw-email-prompt'>DESCRIPTION OF FINAL RESOLUTION AND TIMEFRAME</span>. Please kindly note that <span class='mw-email-prompt'>DESCRIPTION OF ANY ADDITIONAL STEPS TO MANAGE EXPECTATIONS (E.G. EMAILS THEY MIGHT RECEIVE, POSSIBLE ISSUES OUTSIDE COMPANY CONTROL, ETC)</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["In order for me to <span class='mw-email-prompt'>DESCRIPTION OF WHAT WAS REQUESTED</span>, I would be so grateful if you could <span class='mw-email-prompt'>INSERT CUSTOMER NEXT STEPS</span>. Once this has been done, I'll be in touch to confirm that <span class='mw-email-prompt'>DESCRIPTION OF FINAL RESOLUTION</span>. It might also be worth nothing that <span class='mw-email-prompt'>DESCRIPTION OF ANY ADDITIONAL STEPS TO MANAGE EXPECTATIONS (E.G. EMAILS THEY MIGHT RECEIVE, POSSIBLE ISSUES OUTSIDE COMPANY CONTROL, ETC)</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["In order to do that, I am going to <span class='mw-email-prompt'>BRIEF DESCRIPTION OF MY NEXT STEPS</span>. As soon as I have looked into this further, I will <span class='mw-email-prompt'>DESCRIPTION OF FINAL RESOLUTION</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["In order for me to do this, I just need to <span class='mw-email-prompt'>BRIEF DESCRIPTION OF MY NEXT STEPS</span>. As soon as this has been done, I will <span class='mw-email-prompt'>DESCRIPTION OF FINAL RESOLUTION</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["In order for me to help you with this, I would just need you to <span class='mw-email-prompt'>BRIEF DESCRIPTION OF CUSTOMER'S NEXT STEPS</span>. As soon as this has been done, <span class='mw-email-prompt'>DESCRIPTION OF ANY ADDITIONAL NEXT STEPS AND/OR FINAL RESOLUTION</span>."]
+    },
+    {
+        "section": "nextSteps",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We very much hope that this matter has been resolved to your satisfaction and that we have restored your faith in <span class='mw-email-prompt'>COMPANY NAME</span>."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Thank you ever so much again for sharing your experience with us and please do let us know if there is anything else we can do for you."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["We are committed to resolving this as soon as possible and are grateful for your patience while we do so. Please let us know if you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["I look forward to hearing from you so I can resolve this for you as soon as possible. Please let me know if you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["Thanks so much for your patience while I work on this. Let me know if you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["Thank you ever so much for your patience while we work on resolving this for you. Please let us know if you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We are truly sorry again for any inconvenience caused and are sincerely grateful that you brought this matter to our attention. We hope to welcome you again in the future and remain at your disposal should you need any further assistance in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Thank you ever so much again for your email and please do not hesitate to get back in touch if you have any further questions."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Please do let us know if there is anything else we can assist you with."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Please do let us know if there is anything else we can assist you with."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["We are sorry once again that we were unable to assist you on this occasion. We very much hope to welcome you again in the future and remain at your disposal should you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Thank you very much again for contacting us. Please do not hesitate to get in touch again should you have any questions in the future, we would be delighted to assist you."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["Thank you very much for your patience while we look into this. Please do let us know if you have any questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["Thank you very much again for getting back to us and for your patience while we look into this. We'll be in touch shortly but please do let us know if there is anything else we can do to assist you in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["Thank you again for getting in touch with us. We look forward to hearing back from you and remain at your disposal you have any other questions in the meantime."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["Thank you again for your time. We look forward to your reply so that we can work on resolving this for you."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_theirs"]
+        },
+        "content": ["Thanks so much again for getting in touch. I look forward to hearing from you."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Thanks again for getting in touch with us. Do let me know if there's anything else I can do for you."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I really hope this has been helpful and I'm sorry again that you had to get in touch. Let me know if there's anything else I can do to help."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["reply"],
+            "mood": ["upset"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["I'm so sorry again that you had to get in touch with us about this. Let me know if there's anything else I can do to help."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Please let me know if there is anything else I can help you with."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Thanks again for your email and please don't hesitate to reach out if there's anything else I can do to help."]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly"],
+            "solution": ["solution_true"],
+            "nextSteps": ["next_steps_mine"]
+        },
+        "content": ["Thanks for your patience while I look into this. Let me know if you have any questions in the meantime!"]
+    },
+    {
+        "section": "closing",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["upset"],
+            "solution": ["solution_false"],
+            "nextSteps": ["next_steps_none"]
+        },
+        "content": ["Please let us know if there is anything else we can assist you with."]
+    },
+    {
+        "section": "signature",
+        "options": {
+            "tone": ["formal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly", "upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Kind regards, <br><br><span class='mw-email-prompt'>NAME</span>"]
+    },
+    {
+        "section": "signature",
+        "options": {
+            "tone": ["informal"],
+            "context": ["first", "reply"],
+            "mood": ["friendly", "upset"],
+            "solution": ["solution_true", "solution_false"],
+            "nextSteps": ["next_steps_none", "next_steps_mine", "next_steps_theirs"]
+        },
+        "content": ["Many thanks, <br><br><span class='mw-email-prompt'>NAME</span>"]
+    }
+]

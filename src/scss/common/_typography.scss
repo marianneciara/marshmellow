@@ -1,0 +1,17 @@
+$open-sans: 'Open Sans', sans-serif;
+
+$regular: 400;
+$bold: 700;
+
+h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: $white;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+}
+
+a {
+    color: $secondary;
+}

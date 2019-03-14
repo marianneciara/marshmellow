@@ -1,0 +1,13 @@
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div[class*="col"] {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+label {
+    margin-bottom: 0;
+}
